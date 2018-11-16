@@ -1,0 +1,3 @@
+student name : Tom Verlaat
+student number : 629405
+student class : Inf1SA
