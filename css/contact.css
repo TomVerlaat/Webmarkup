@@ -1,0 +1,298 @@
+/* Welkom*/
+
+@font-face {
+	font-family: 'berlin';
+	src: url('../fonts/BerlinSansFB.ttf') 
+	format('truetype');
+}
+
+
+html 
+{
+	background-image: url("../img/background.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	 
+}
+body 
+{ 
+	margin: auto;
+    text-align: center; 
+    color: #FFFFFF; 
+    position: relative; 
+	font-family:'berlin';
+	font-family: sans-serif, serif;
+	max-width: 854px;
+}
+
+header 
+{		
+		background-size: 100%;
+		width: 100%;
+		color: #ffffff;
+		text-align: center;
+		
+		background: url(../img/companylogoBG.png);
+		background-position: center;
+		text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+		
+		
+		height: 140px;
+		margin-top: 0;
+		padding-top: 55px;
+}
+
+header h1 
+{
+	margin: auto; font-size: 5em;  
+}
+
+nav 
+{
+	border: 1.5px solid #FFFFFF; 
+	background-color: #707070; 
+	
+}
+nav ul {
+	margin: auto; 
+	padding: 7px 0; 
+	max-width: 450px;
+	list-style-type: none;
+}
+nav ul li 
+{ 
+	display: inline-block; 
+	margin: auto; 
+	vertical-align: center;
+}
+
+nav ul li a 
+{ 
+    color: #FFFFFF; 
+    font-size: 1.75em;
+    margin: auto;
+	text-decoration: none;
+	padding: 0 10px;
+    text-transform: uppercase;  
+}
+
+
+#video { 
+	position: fixed;
+	overflow: hidden; z-index: -1; 
+	top: 0; right: 0; bottom: 0; left: 0; 
+	
+}
+#video .videoachtergrond { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 100%; 
+    min-height: 100%; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+section h2 { 
+margin: auto; 
+font-size: 5em; 
+text-transform: uppercase;
+padding: 6px 0;
+}
+
+footer { background-color: #000000; padding: 10px 0; border: 1.5px solid #FFFFFF; }
+
+footer p
+{
+	margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	font-size: 1.5em;
+	display: block;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+    
+}
+
+body section:not(:first-child) 
+{
+	background-color: #2699FB; 
+}
+body section figure 
+{
+	margin: 0;
+	height: 450px; 
+	background-size:auto;
+	background-position: center;
+	
+}
+
+
+#hamburger {
+	display: none;
+}
+
+aside {
+	float: left;
+}
+
+
+/* Formulier op contactpagina */
+
+
+#moreinformation 
+{
+	color: #707070;	
+	font-size: 2em;
+	text-align: left;
+	margin-left: 45px;
+}
+
+
+
+
+
+.input 
+{
+		color: #AAAAAA;
+
+		font-size: 1.5em;
+		width: 100%;
+		border: none;
+		background-color: #ffffff;	
+}
+
+
+	
+textarea 
+{			
+		border: 1px solid;
+		color: #707070;
+		height: 100px;;
+}
+	
+form 
+{
+		border: 1px solid;
+		background-color: #F5F5F5;
+		color: #AAAAAA;
+		
+		
+}
+
+.topic
+{
+		font-size: 1.5em;
+		display: block;
+		width: 25%;
+		float: left;
+		text-align: left;
+		padding:6px 0 6px;
+		background-color: #ffffff;
+		color: #AAAAAA;;
+}
+	
+.topicmenu
+{
+		width: 60%;
+		outline: 1px solid #707070;
+		position: relative;
+		display: inline-block;
+		padding-left: 5px;
+		
+		color: #707070;
+		float: right;
+		font-size: 1.5em;
+		height: 30px;
+		background-color: #ffffff;
+		
+		
+}
+	
+fieldset 
+{	
+		padding: 7px;
+		width: 80%;
+		display: block;
+		margin:auto;
+		border: 1px solid #000000;
+		margin-bottom: 21px;
+		background-color: #ffffff;
+}
+
+
+#yourname ::placeholder 
+{ 
+   	color: #AAAAAA;;
+	font-size: 1em;
+    opacity: 1;
+}
+
+
+#yourname :-ms-input-placeholder 
+{ 
+   	color: #AAAAAA;;
+	font-size: 1em;
+    opacity: 1;
+}
+
+
+
+
+
+
+#youremail ::placeholder 
+{ 
+   	color: #AAAAAA;;
+	font-size: 1em;
+    opacity: 1;
+}
+
+
+#youremail :-ms-input-placeholder 
+{ 
+   	color: #AAAAAA;;
+	font-size: 1em;
+    opacity: 1;
+}
+
+
+/*chrome*/
+#writesomething ::placeholder 
+{ 
+   	color: #AAAAAA;;
+	font-size: 1.5em;
+    opacity: 1;
+}
+
+/*Internet Explorer 10-11 */
+#writesomething  :-ms-input-placeholder 
+{ 
+    color: #AAAAAA;
+}
+
+label 
+{
+		color: #757575;
+}
+
+.submit
+{
+		background-color: #2699FB;
+		border: 1px solid;
+		height:45px; 
+		color: #ffffff;
+		margin-bottom: 45px;
+		font-size: 2em;
+		width: 82.5%;			
+}
+
+#nav1 {
+	float:left;
+}
+
+
+
+
+
+
